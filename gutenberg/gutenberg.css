@@ -56,6 +56,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.chapter {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
 .chapter > p:first-child::first-letter {
     font-size: 42pt;
 }
