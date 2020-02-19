@@ -8,3 +8,6 @@ Resources:
 * Paletton colour picker: https://paletton.com/#uid=10C0u0kfHtd65N2aOABkrodoLjL
 * Font Squirrel for custom fonts
 * CSS web-safe fonts: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+Reference materials:
+* Colour scheme: https://paletton.com/#uid=10C0u0kfHtd65N2aOABkrodoLjL
