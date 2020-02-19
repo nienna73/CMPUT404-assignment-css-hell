@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    background-image: linear-gradient(to right, #9d6424, blanchedalmond 5%, blanchedalmond 95%, #9d6424);
+    background-color: blanchedalmond;
+}
+
+body {
+    margin: 15em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 12pt;
+}
+
+pre {
+    font-family: "Helvetical", "Arial", "sans-serif";
+    font-size: 8pt;
+}
+
+h1 {
+    text-align: center;
+    font-family: "alex_brushregular", "Book Antiqua", Palatino, serif;
+
+}
+
+h2, .sub {
+    text-align: center;
+}
+
+h3 {
+    padding-left: 2em;
+
+}
+
+h4 {
+    margin-left: -2.5em;
+
+}
+
+h5 {
+    padding-left: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: #9d6424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.chapter > p:first-child::first-letter {
+    font-size: 42pt;
+}
+
+.chapter > p {
+    text-indent: 2em;
+    line-height: 1.3em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
