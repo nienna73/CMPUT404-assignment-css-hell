@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0 1em 0 1em;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Comic Sans", "Open Sans", "Ubuntu", sans-serif;
     background-color: white;
 }
 
@@ -16,33 +16,30 @@ p {
 
 .header {
     margin-top: none;
-    height: 250pt;
-    background-color: rgba(255, 173, 179, 0.8);
-    background-image: linear-gradient(to right, rgba(255,173,179,1), rgba(255,173,179,0.1) 10%, rgba(255,173,179,0.1) 90%, rgba(255,173,179,1));
+    height: 200pt;
+    background-color: black;
 }
 
 .header h1 {
-    font-size: 20pt;
-    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+    /* text-align: center; */
     font-size: 3em;
-    padding-left: 300pt;
-    padding-top: 60pt;
+    margin-left: 35%;
+    margin-top: -50pt;
+    background-image: linear-gradient(to right, yellow, orange, red, purple, blue);
+    color: transparent;
+    background-clip: text;
+    z-index: 3;
 }
 
 h2 {
     padding-left: 20pt;
 }
 
-.header h2 {
-    padding-left: 300pt;
-    margin-top: -70pt;
-}
 
 .topbar {
-    background-image: linear-gradient(black, grey);
-    border-bottom: 3pt solid rgba(255, 173, 179, 0.8);
+    background-color: black;
     list-style: none;
-    height: 1.6em;
+    height: 2em;
     padding-top: 10pt;
     font-size: 1.5em;
 
@@ -58,14 +55,15 @@ h2 {
 }
 
 .topbar li > a, .bottombar li > a {
-    color: white;
+    padding: 5pt;
     text-decoration: none;
-    margin-left: 10pt;
+    background-color: yellow;
+    border: 10pt solid orange;
 }
 
 .sidebar {
     float: right;
-    background-color: lightgray;
+    background-color: yellow;
     padding: 10pt;
     width: 20%;
     margin: 25pt;
@@ -73,17 +71,12 @@ h2 {
 }
 
 .sidebar h4 {
-    color: rgba(255, 115, 121, 1);
+    color: forestgreen;
     margin-bottom: 3pt;
 }
 
 .sidebar h3 {
     font-size: 1.3em;
-}
-
-.sidebar p {
-    margin-top: 3pt;
-    font-size: 11pt;
 }
 
 .content h2 {
@@ -93,8 +86,6 @@ h2 {
 
 .bottombar {
     clear: both;
-    background-image: url('images/bottom-bar.png');
-    background-repeat: repeat-x;
 }
 
 .left {
@@ -136,4 +127,14 @@ h2 {
 
 .break {
     height: 4em;
+}
+
+.behind {
+    z-index: -50;
+    clear: both;
+}
+
+.dog-text {
+    margin-top: -80pt;
+    margin-left: 150pt;
 }
